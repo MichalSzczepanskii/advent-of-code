@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@advent-of-code/day1": ["libs/2024/day1/src/index.ts"],
+      "@advent-of-code/day2": ["libs/2024/day2/src/index.ts"],
+      "@advent-of-code/quicksort": ["libs/utils/quicksort/src/index.ts"],
+      "@advent-of-code/read-input-file": [
+        "libs/utils/read-input-file/src/index.ts"
+      ],
+      "@advent-of-code/unique-occurrences": [
+        "libs/utils/unique-occurrences/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

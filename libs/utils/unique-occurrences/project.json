@@ -1,0 +1,9 @@
+{
+  "name": "unique-occurrences",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/utils/unique-occurrences/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project unique-occurrences --web",
+  "targets": {}
+}
