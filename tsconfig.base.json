@@ -18,6 +18,7 @@
       "@advent-of-code/aoc": ["tools/aoc/src/index.ts"],
       "@advent-of-code/day1": ["libs/2024/day1/src/index.ts"],
       "@advent-of-code/day2": ["libs/2024/day2/src/index.ts"],
+      "@advent-of-code/day3": ["libs/2024/day3/src/index.ts"],
       "@advent-of-code/quicksort": ["libs/utils/quicksort/src/index.ts"],
       "@advent-of-code/read-input-file": [
         "libs/utils/read-input-file/src/index.ts"
