@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "day": {
+      "factory": "./src/generators/day/generator",
+      "schema": "./src/generators/day/schema.json",
+      "description": "day generator"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "aoc",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "tools/aoc/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/tools/aoc",
+        "main": "tools/aoc/src/index.ts",
+        "tsConfig": "tools/aoc/tsconfig.lib.json",
+        "assets": [
+          "tools/aoc/*.md",
+          {
+            "input": "./tools/aoc/src",
+            "glob": "**/!(*.ts)",
+            "output": "./src"
+          },
+          {
+            "input": "./tools/aoc/src",
+            "glob": "**/*.d.ts",
+            "output": "./src"
+          },
+          {
+            "input": "./tools/aoc",
+            "glob": "generators.json",
+            "output": "."
+          },
+          {
+            "input": "./tools/aoc",
+            "glob": "executors.json",
+            "output": "."
+          }
+        ]
+      }
+    }
+  }
+}

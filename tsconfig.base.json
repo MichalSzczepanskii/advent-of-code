@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@advent-of-code/aoc": ["tools/aoc/src/index.ts"],
       "@advent-of-code/day1": ["libs/2024/day1/src/index.ts"],
       "@advent-of-code/day2": ["libs/2024/day2/src/index.ts"],
       "@advent-of-code/quicksort": ["libs/utils/quicksort/src/index.ts"],
